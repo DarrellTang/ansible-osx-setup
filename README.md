@@ -19,12 +19,12 @@ For future updates, `bin/apply` can be used to run just the Ansible playbook wit
 The easiest way to understand what's installed is to read the contents of `ansible_osx.yml`, this configuration is fairly specific to the range of development I do personally, but may serve as a useful starting point for others. The core components are:
 
 - ZSH + Oh My Zsh as the primary shell
+- Cloning and installing powerline fonts for command prompt customization
 - Homebrew for package management
-- ASDF for version management (along with plugins and default versions for ruby, python, javascript, elixir and erlang)
-- Virtualbox, Vagrant and Docker
 - VSCode + default plugins and configuration
-- A selection of Android SDK's
-- Lots of other tools and utilities
+- Cloning my dotfile repository
+- Configuring Neovim
+- Symlinking dotfiles to appropriate places
 
 ## Customising
 
