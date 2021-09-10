@@ -62,9 +62,12 @@
       ignore_errors: yes
       with_items:
         - alacritty
+        - flameshot
+        - lens
         - virtualbox
         - visual-studio-code
         - slack
+        - workflowy
 
     - name: Install homebrew packages
       community.general.homebrew:
@@ -73,7 +76,9 @@
           'coreutils',
           'curl',
           'dnsmasq',
+          'exa',
           'fzf',
+          'krew',
           'kubectx',
           'kubernetes-cli',
           'kubernetes-helm',
