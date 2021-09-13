@@ -62,7 +62,6 @@
       ignore_errors: yes
       with_items:
         - alacritty
-        - flameshot
         - lens
         - virtualbox
         - visual-studio-code
@@ -85,6 +84,7 @@
           'nvim',
           'openssl' ,
           'screenfetch',
+          's3cmd',
           'terraform',
           'tfenv',
           'tldr',
